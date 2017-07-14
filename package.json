@@ -1,0 +1,31 @@
+{
+  "name": "abc",
+  "version": "1.0.0",
+  "description": "book trading club",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "book",
+    "trading",
+    "club"
+  ],
+  "author": "Paul-Emile Chantrel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "crypto": "0.0.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.3",
+    "express-validator": "^3.2.1",
+    "mongoose": "^4.11.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
